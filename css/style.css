@@ -1,0 +1,126 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+.dropdown-content {
+  margin: 0;
+  display: none;
+  min-width: 250px; /* Changed this to accomodate content width */
+  max-height: auto;
+  margin-left: 152px; /* Add this to keep dropdown in line with edge of navbar */
+  overflow: hidden; /* Changed this from overflow-y:auto; to overflow:hidden; */
+  opacity: 0;
+  position: absolute;
+  white-space: nowrap;
+  z-index: 1;
+  will-change: width, height;
+  opacity: 0.7 !important;
+}
+.inline {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 25px;
+  color: #FFFFFF;
+}
+.side-nav li a {
+  text-decoration:none;
+}
+#searchResults2{
+  background-color:#666666;
+}
+#searchResults{
+  background-color:#666666;
+}
+.right li a{
+
+  text-decoration:none
+}
+nav .input-search .label-icon {
+  top: -10px;
+}
+nav .input-field.input-search {
+  width: 10pt;
+}
+.input-search input[type=search]:focus {
+  width: 100pt;
+}
+.input-search input[type=search] ~ .material-icons {
+    right: -11rem;
+}
+
+nav #form-search-mobile{
+  margin: 20px 0;
+}
+
+nav #form-search-mobile .input-search-mobile {
+    height: auto;
+    padding: 0 30px;
+}
+nav #form-search-mobile .input-search-mobile ~ input[type=search]:focus {
+    padding: 0;
+}
+nav .input-search-mobile .label-icon {
+  top: -10px;
+  margin-left: 18px;
+}
+nav .input-search-mobile label i {
+  color: #000000 !important;
+}
+nav .input-field.input-search-mobile {
+  width: 100%;
+}
+.nav-wrapper .input-search-mobile input[type=search]{
+  border-bottom: 1px solid #000000 !important; 
+}
+.input-search-mobile input[type=search] ~ .material-icons {
+  right: -11rem;
+}
+
+.logo-mobile{
+  height: 120px;
+}
+
+@media only screen and (max-width: 600px) {
+  .right li a{
+    padding:0;
+    text-decoration:none;
+  } 
+}
+
+nav .container, .page-footer .container {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 90%;
+}
+
+nav .container .row, .page-footer .container .row {
+  margin: 0 auto !important;
+}
+
+@media only screen and (min-width: 601px) {
+  nav .container, .page-footer .container{
+    width: 80%;
+  }
+  nav .container .row, .page-footer .container .row {
+    margin: 0 auto !important;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  nav .container, .page-footer .container{
+    width: 75%;
+  }
+  nav .container .row, .page-footer .container .row {
+    margin: 0 auto !important;
+  }
+}
